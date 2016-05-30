@@ -593,7 +593,7 @@ class CWS_PageLinksTo extends WP_Stack_Plugin {
 	 * Outputs a notice that the current post item is pointed to a custom URL
 	 */
 	function notify_of_external_link() {
-		?><div class="updated"><p><?php _e( '<strong>Note</strong>: This content is pointing to a custom URL. Use the &#8220;Page Links To&#8221; box to change this behavior.', 'page-links-to' ); ?></p></div><?php
+		?><div class="updated page-links-to"><p><?php _e( '<strong>Note</strong>: This content is pointing to a custom URL. Use the &#8220;Page Links To&#8221; box to change this behavior.', 'page-links-to' ); ?></p></div><?php
 	}
 
 	/**
